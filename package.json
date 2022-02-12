@@ -13,7 +13,7 @@
     "vscode": "^1.64.0"
   },
   "categories": [
-    "Other"
+    "Snippets"
   ],
   "activationEvents": [
     "onCommand:extension.createComponent"
