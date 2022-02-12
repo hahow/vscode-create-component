@@ -1,70 +1,40 @@
-# create-component README
+# Create Component
 
-This is the README for your extension "create-component". After writing up a brief description, we recommend including the following sections.
+這是一個 Visual Studio Code 的 extension，可以讓 [Hahow for Business](https://business.hahow.in/) 的前端團隊根據自己的「[資料夾分類＆檔案命名規則](https://github.com/hahow/hahow-for-business/wiki/Frontend-Coding-Style-Conventions#%E8%B3%87%E6%96%99%E5%A4%BE%E6%94%BE%E7%BD%AE%E8%A6%8F%E5%89%87)」自動批次建立 template。
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+目前支援建立以下 template：
 
-For example if there is an image subfolder under your extension project workspace:
+- **Component**
+- **Higher-Order Component**
+- **Hook**
+- **Utility Function**
 
-\!\[feature X\]\(images/feature-x.png\)
+![feature](images/feature.gif)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Getting Started
 
-## Requirements
+### Installation
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+安裝 Visual Studio Code extension
 
-## Extension Settings
+## Usage
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+1. 在 Visual Studio Code 的 explorer tab 中，找到想要建立 template 的資料夾，點擊右鍵選單
+1. 點擊「**Create Component**」
+1. 選擇想要建立的類型
+1. 輸入檔案名稱，然後 enter
+1. extension 將會自動建立一個新的資料夾以及一系列相關檔案
 
-For example:
+## Contributing
 
-This extension contributes the following settings:
+如果你有一些可以讓這個 extension 變得更好用的建議，請 fork 這個 repository 然後送 Pull Request 給我們，或是你也可以開個 issue 讓我們知道。別忘了給 project 點個 Star！感激不盡！
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+要在 local 開發的步驟：
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+1. `git checkout` forked repository
+1. `npm install` 安裝 dependencies
+1. Visual Studio Code 開啟專案
+1. 修改程式碼，`F5` 進入 debug 模式
+1. Visual Studio Code 會開啟第二個 development 專用的視窗
