@@ -1,6 +1,11 @@
 {
   "name": "create-component",
   "displayName": "Create Component",
+  "author": {
+    "name": "Amo Wu",
+    "email": "amo260@gmail.com",
+    "url": "https://amowu.com"
+  },
   "publisher": "amowu",
   "description": "",
   "version": "0.0.1",
