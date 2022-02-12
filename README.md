@@ -17,7 +17,7 @@
 
 ### Installation
 
-安裝 Visual Studio Code extension
+前往 [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=amowu.vscode-create-component) 安裝 Visual Studio Code extension
 
 ## Usage
 
