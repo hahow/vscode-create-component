@@ -4,10 +4,12 @@ import * as vscode from "vscode";
 
 import ComponentTemplate from "../../utils/ComponentTemplate";
 import HOCTemplate from "../../utils/HOCTemplate";
+import HookTemplate from "../../utils/HookTemplate";
 
 enum Item {
   component = "Component",
   hoc = "Higher-Order Component",
+  hook = "Hook",
 }
 
 const execute = async ({ fsPath }: { fsPath: string }) => {
@@ -53,6 +55,8 @@ const execute = async ({ fsPath }: { fsPath: string }) => {
       template = new ComponentTemplate();
     } else if (item === Item.hook) {
       template = new HookTemplate();
+    } else if (item === Item.hoc) {
+      template = new HOCTemplate();
     } else {
       throw new Error("未知的 Template");
     }
