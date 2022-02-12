@@ -10,14 +10,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:create-component.helloWorld"
+    "onCommand:extension.createComponent"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "create-component.helloWorld",
-        "title": "Hello World"
+        "command": "extension.createComponent",
+        "title": "Create Component"
       }
     ]
   },
