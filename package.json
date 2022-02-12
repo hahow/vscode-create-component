@@ -1,6 +1,7 @@
 {
   "name": "create-component",
   "displayName": "Create Component",
+  "publisher": "amowu",
   "description": "",
   "version": "0.0.1",
   "engines": {
