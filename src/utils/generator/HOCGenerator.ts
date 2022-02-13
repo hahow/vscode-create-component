@@ -5,13 +5,13 @@ import * as path from "path";
 import HOC_TEMPLATE from "../../templates/hoc/hoc";
 import INDEX_TEMPLATE from "../../templates/hoc/index";
 import TYPE_TEMPLATE from "../../templates/hoc/type";
-import Template from "../Template";
+import IGenerator from "./IGenerator";
 
 const capitalize = (s: string) => {
   return s[0].toUpperCase() + s.slice(1);
 };
 
-class HOCTemplate implements Template {
+class HOCGenerator implements IGenerator {
   public generate(name: string, folder: string): void {
     const capitalizedName = capitalize(name);
 
@@ -30,4 +30,4 @@ class HOCTemplate implements Template {
   }
 }
 
-export default HOCTemplate;
+export default HOCGenerator;

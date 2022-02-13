@@ -7,9 +7,9 @@ import INDEX_TEMPLATE from "../../templates/component/index";
 import STORIES_TEMPLATE from "../../templates/component/stories";
 import STYLED_COMPONENTS_TEMPLATE from "../../templates/component/style";
 import TYPE_TEMPLATE from "../../templates/component/type";
-import Template from "../Template";
+import IGenerator from "./IGenerator";
 
-class ComponentTemplate implements Template {
+class ComponentGenerator implements IGenerator {
   public generate(name: string, folder: string): void {
     fs.writeFileSync(
       path.join(folder, `${name}.tsx`),
@@ -34,4 +34,4 @@ class ComponentTemplate implements Template {
   }
 }
 
-export default ComponentTemplate;
+export default ComponentGenerator;

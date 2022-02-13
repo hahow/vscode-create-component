@@ -1,5 +1,5 @@
-interface Template {
+interface IGenerator {
   generate(name: string, folder: string): void;
 }
 
-export default Template;
+export default IGenerator;

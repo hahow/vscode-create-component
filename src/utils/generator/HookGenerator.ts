@@ -2,16 +2,16 @@ import * as fs from "fs";
 import * as mustache from "mustache";
 import * as path from "path";
 
-import UTIL_TEMPLATE from "../../templates/util/util";
-import INDEX_TEMPLATE from "../../templates/util/index";
-import TEST_TEMPLATE from "../../templates/util/test";
-import Template from "../Template";
+import HOOK_TEMPLATE from "../../templates/hook/hook";
+import INDEX_TEMPLATE from "../../templates/hook/index";
+import TYPE_TEMPLATE from "../../templates/hook/type";
+import IGenerator from "./IGenerator";
 
-class UtilTemplate implements Template {
+class HookGenerator implements IGenerator {
   public generate(name: string, folder: string): void {
     fs.writeFileSync(
       path.join(folder, `${name}.ts`),
-      mustache.render(UTIL_TEMPLATE, { name })
+      mustache.render(HOOK_TEMPLATE, { name })
     );
     fs.writeFileSync(
       path.join(folder, "index.ts"),
@@ -19,9 +19,9 @@ class UtilTemplate implements Template {
     );
     fs.writeFileSync(
       path.join(folder, `${name}.type.ts`),
-      mustache.render(TEST_TEMPLATE, { name })
+      mustache.render(TYPE_TEMPLATE, { name })
     );
   }
 }
 
-export default UtilTemplate;
+export default HookGenerator;
