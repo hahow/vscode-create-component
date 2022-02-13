@@ -69,8 +69,9 @@ const execute = async ({ fsPath }: { fsPath: string }) => {
   } catch (error: unknown) {
     if (error instanceof Error) {
       vscode.window.showErrorMessage(error.message);
+    } else {
+      vscode.window.showErrorMessage("未知錯誤");
     }
-    vscode.window.showErrorMessage("未知錯誤");
   }
 };
 
