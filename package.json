@@ -61,6 +61,7 @@
     "eslint": "^8.6.0",
     "glob": "^7.2.0",
     "mocha": "^9.1.3",
+    "semantic-release-vsce": "^5.0.7",
     "typescript": "^4.5.4",
     "vsce": "^2.6.7"
   },
@@ -77,21 +78,5 @@
     "type": "git",
     "url": "https://github.com/hahow/vscode-create-component.git"
   },
-  "homepage": "https://github.com/hahow/vscode-create-component/blob/main/README.md",
-  "release": {
-    "branches": "master",
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      [
-        "@semantic-release/npm",
-        {
-          "npmPublish": false
-        }
-      ],
-      "@semantic-release/changelog",
-      "@semantic-release/github",
-      "@semantic-release/git"
-    ]
-  }
+  "homepage": "https://github.com/hahow/vscode-create-component/blob/main/README.md"
 }
