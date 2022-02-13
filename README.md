@@ -1,3 +1,5 @@
+[![Visual Studio Marketplace Installs - Azure DevOps Extension][install-shield]][install-url]
+
 <div align="center">
   <a href="https://github.com/hahow/vscode-create-component">
     <img src="images/icon.png" alt="Logo" width="80" height="80">
@@ -72,3 +74,6 @@
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+[install-shield]: https://img.shields.io/visual-studio-marketplace/azure-devops/installs/total/amowu.vscode-create-component
+[install-url]: https://marketplace.visualstudio.com/items?itemName=amowu.vscode-create-component
