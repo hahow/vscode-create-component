@@ -1,5 +1,4 @@
 [![Visual Studio Marketplace Installs - Azure DevOps Extension][install-shield]][install-url]
-[![.github/workflows/release.yml][action-shield]][action-url]
 [![GitHub package.json version][version-shield]][version-url]
 
 <div align="center">
@@ -83,7 +82,5 @@ Inspired by [pranshuagrawal/vscode-create-component](https://github.com/pranshua
 
 [install-shield]: https://img.shields.io/visual-studio-marketplace/azure-devops/installs/total/amowu.vscode-create-component
 [install-url]: https://marketplace.visualstudio.com/items?itemName=amowu.vscode-create-component
-[action-shield]: https://github.com/hahow/vscode-create-component/actions/workflows/release.yml/badge.svg
-[action-url]: https://github.com/hahow/vscode-create-component/actions/workflows/release.yml
 [version-shield]: https://img.shields.io/github/package-json/v/hahow/vscode-create-component
 [version-url]: https://github.com/hahow/vscode-create-component/releases
