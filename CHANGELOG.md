@@ -1,3 +1,10 @@
+## [0.1.5](https://github.com/hahow/vscode-create-component/compare/v0.1.4...v0.1.5) (2022-02-13)
+
+
+### Bug Fixes
+
+* 修復跳兩個錯誤訊息的問題 ([9639029](https://github.com/hahow/vscode-create-component/commit/963902971b726f91e775d6c46fe90d75a893cb8d))
+
 ## [0.1.4](https://github.com/hahow/vscode-create-component/compare/v0.1.3...v0.1.4) (2022-02-13)
 
 
