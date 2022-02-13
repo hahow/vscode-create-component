@@ -1,5 +1,5 @@
-[![Visual Studio Marketplace Installs - Azure DevOps Extension][install-shield]][install-url]
 [![GitHub package.json version][version-shield]][version-url]
+[![Visual Studio Marketplace Installs - Azure DevOps Extension][install-shield]][install-url]
 
 <div align="center">
   <a href="https://github.com/hahow/vscode-create-component">
