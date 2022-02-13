@@ -15,6 +15,10 @@
     "Snippets"
   ],
   "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#00CCB4",
+    "theme": "dark"
+  },
   "activationEvents": [
     "onCommand:extension.createComponent"
   ],
