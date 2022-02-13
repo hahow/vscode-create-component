@@ -60,6 +60,7 @@
     "@types/mustache": "^4.1.2",
     "mustache": "^4.2.0"
   },
+  "license": "See License in LICENSE file",
   "bugs": {
     "url": "https://github.com/hahow/vscode-create-component/issues",
     "email": "sean@contoso.com"

@@ -38,3 +38,7 @@
 1. Visual Studio Code 開啟專案
 1. 修改程式碼，`F5` 進入 debug 模式
 1. Visual Studio Code 會開啟第二個 development 專用的視窗
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
