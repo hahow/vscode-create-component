@@ -77,3 +77,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 [install-shield]: https://img.shields.io/visual-studio-marketplace/azure-devops/installs/total/amowu.vscode-create-component
 [install-url]: https://marketplace.visualstudio.com/items?itemName=amowu.vscode-create-component
+
+## Acknowledgments
+
+Inspired by [pranshuagrawal/vscode-create-component](https://github.com/pranshuagrawal/vscode-create-component), special thanks to [@pranshuagrawal](https://github.com/pranshuagrawal).
