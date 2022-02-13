@@ -22,7 +22,7 @@ jobs:
     - run: npm test
       if: runner.os != 'Linux'
     - name: Semantic Release
-      if: runner.os == 'Linux'
+      if: success() && matrix.os == 'ubuntu-latest'
       uses: cycjimmy/semantic-release-action@v2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
