@@ -12,9 +12,9 @@
     這是一個 Visual Studio Code 的 extension，可以讓 <a href="https://business.hahow.in/">Hahow for Business</a> 的前端團隊根據自己的「<a href="https://github.com/hahow/hahow-for-business/wiki/Frontend-Coding-Style-Conventions#%E8%B3%87%E6%96%99%E5%A4%BE%E6%94%BE%E7%BD%AE%E8%A6%8F%E5%89%87">資料夾分類＆檔案命名規則</a>」自動批次建立 template
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/hahow/vscode-create-component/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/hahow/vscode-create-component/issues">Request Feature</a>
   </p>
 </div>
 
