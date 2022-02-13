@@ -1,3 +1,10 @@
+## [0.1.2](https://github.com/hahow/vscode-create-component/compare/v0.1.1...v0.1.2) (2022-02-13)
+
+
+### Bug Fixes
+
+* 第二次嘗試修復 CI publish ([206deaf](https://github.com/hahow/vscode-create-component/commit/206deafff7efc95eaeef33101511d356da9c5fbf))
+
 ## [0.1.1](https://github.com/hahow/vscode-create-component/compare/v0.1.0...v0.1.1) (2022-02-13)
 
 
