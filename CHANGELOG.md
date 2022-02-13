@@ -1,3 +1,10 @@
+## [0.1.4](https://github.com/hahow/vscode-create-component/compare/v0.1.3...v0.1.4) (2022-02-13)
+
+
+### Bug Fixes
+
+* 安全性更新 ([51ade8d](https://github.com/hahow/vscode-create-component/commit/51ade8d13404b31678b431e2eb28ab6743cb4d61))
+
 ## [0.1.3](https://github.com/hahow/vscode-create-component/compare/v0.1.2...v0.1.3) (2022-02-13)
 
 
