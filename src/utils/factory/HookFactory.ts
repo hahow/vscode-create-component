@@ -1,15 +1,15 @@
 import IGenerator from "../generator/IGenerator";
 import Validator from "../validator/Validator";
-import HOCGenerator from "../generator/HOCGenerator";
 import IFactory from "./IFactory";
-import HOCValidator from "../validator/HOCValidator";
+import HookGenerator from "../generator/HookGenerator";
+import HookValidator from "../validator/HookValidator";
 
 class HookFactory implements IFactory {
   public createValidator(): Validator {
-    return new HOCValidator();
+    return new HookValidator();
   }
   public createGenerator(): IGenerator {
-    return new HOCGenerator();
+    return new HookGenerator();
   }
 }
 
