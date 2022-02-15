@@ -1,3 +1,10 @@
+## [0.1.6](https://github.com/hahow/vscode-create-component/compare/v0.1.5...v0.1.6) (2022-02-14)
+
+
+### Bug Fixes
+
+* 修正 hook 產生錯誤的 template ([bbb056f](https://github.com/hahow/vscode-create-component/commit/bbb056fc6e3d54b9f3e930c748d2aa4e797599e6))
+
 ## [0.1.5](https://github.com/hahow/vscode-create-component/compare/v0.1.4...v0.1.5) (2022-02-13)
 
 
