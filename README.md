@@ -31,7 +31,12 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li>
+      <a href="#contributing">Contributing</a>
+      <ul>
+        <li><a href="#diagram">Diagram</a></li>
+      </ul>
+    </li>
   </ol>
 </details>
 
@@ -71,6 +76,38 @@
 1. Visual Studio Code 開啟專案
 1. 修改程式碼，`F5` 進入 debug 模式
 1. Visual Studio Code 會開啟第二個 development 專用的視窗
+
+### Diagram
+
+下圖以 Component 類型的元件為例，其它類型以此類推：
+
+```mermaid
+classDiagram
+  IFactory <|.. ComponentFactory
+  <<Interface>> IFactory
+  IFactory: +createValidator()
+  IFactory: +createGenerator()
+  ComponentFactory: +createValidator()
+  ComponentFactory: +createGenerator()
+  IValidator <|.. ComponentValidator
+  <<Interface>> IValidator
+  IValidator: +string validate(string name)
+  ComponentValidator: +string validate(string name)
+  Generator <|-- ComponentGenerator
+  Generator: +generate(string name, string folder)
+  ComponentGenerator: +generate(string name, string folder)
+  ComponentValidator <.. ComponentFactory
+  ComponentGenerator <.. ComponentFactory
+  IFactory <-- extension
+  IValidator <.. extension
+  Generator <.. extension
+  extension: -IFactory factory
+  extension: +execute()
+```
+
+1. 如果要調整 template，可以改 `/src/templates/component/*.ts` 和 `src/utils/generator/ComponentGenerator.ts` 這兩份檔案
+1. 如果要調整 validator，可以改 `src/utils/validator/ComponentValidator.ts` 這個檔案
+1. 如果要新增類型，可以參考 `src/utils/factory/ComponentFactory.ts` 新增相關檔案，然後在 `src/utils/execute.ts` 新增一筆 `enum Item`
 
 ## License
 
