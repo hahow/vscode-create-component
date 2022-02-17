@@ -1,7 +1,7 @@
 const COMPONENT_TEMPLATE = `import { FC } from 'react';
 
 import { Styled{{name}} } from './{{name}}.style';
-import { {{name}}Props } from './{{name}}.type';
+import type { {{name}}Props } from './{{name}}.type';
 
 const {{name}}: FC<{{name}}Props> = (props) => {
   return <Styled{{name}} />;

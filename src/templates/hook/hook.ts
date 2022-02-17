@@ -3,7 +3,7 @@ import { useReducer } from 'react';
 
 import { QueryCoursesArgs } from '@/types/graphql';
 
-import { ActionType, CoursesData } from './{{name}}.type';
+import type { ActionType, CoursesData } from './{{name}}.type';
 
 const GET_COURSES = gql\`
   query GetCourses($pagination: PaginationInput, $keyword: String) {

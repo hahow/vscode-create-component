@@ -1,6 +1,6 @@
 const HOC_TEMPLATE = `import { FC, memo } from 'react';
 
-import { PropsAreEqual } from './{{name}}.type';
+import type { PropsAreEqual } from './{{name}}.type';
 
 const {{name}} = <P extends {}>(
   Component: FC<P>,
