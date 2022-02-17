@@ -1,3 +1,11 @@
+# [0.2.0](https://github.com/hahow/vscode-create-component/compare/v0.1.6...v0.2.0) (2022-02-17)
+
+
+### Features
+
+* 改用 Meta 和 Story ([a8de0d8](https://github.com/hahow/vscode-create-component/commit/a8de0d82095e5de256082547534edf85b4e43982))
+* 新增 import type ([2543d20](https://github.com/hahow/vscode-create-component/commit/2543d20ffd6464b2defb12d39ece8c2f39abeac0))
+
 ## [0.1.6](https://github.com/hahow/vscode-create-component/compare/v0.1.5...v0.1.6) (2022-02-14)
 
 
