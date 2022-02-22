@@ -20,7 +20,7 @@ Basic.parameters = {
     type: 'figma',
     url: '',
   },
-  // TODO: 預設 skip Percy
+  // TODO: 如果希望 Percy screenshot，請取消註解；否則請移除程式碼
   // percy: { skip: false },
 };
 Basic.storyName = '{{name}}';
