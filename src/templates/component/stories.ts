@@ -22,7 +22,7 @@ Basic.parameters = {
   },
   percy: { skip: true },
 };
-Basic.storyName = 'Give me a new name';
+Basic.storyName = '{{name}}';
 `;
 
 export default STORIES_TEMPLATE;
