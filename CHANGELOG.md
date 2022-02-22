@@ -1,3 +1,10 @@
+## [0.2.1](https://github.com/hahow/vscode-create-component/compare/v0.2.0...v0.2.1) (2022-02-22)
+
+
+### Bug Fixes
+
+* 如果只有一個 story，storyName 直接使用元件 name ([5f48173](https://github.com/hahow/vscode-create-component/commit/5f481731bae9af51318e16ef513dbf873789db46))
+
 # [0.2.0](https://github.com/hahow/vscode-create-component/compare/v0.1.6...v0.2.0) (2022-02-17)
 
 
