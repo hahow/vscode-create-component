@@ -1,3 +1,10 @@
+## [0.2.2](https://github.com/hahow/vscode-create-component/compare/v0.2.1...v0.2.2) (2022-02-22)
+
+
+### Bug Fixes
+
+* 修改 Percy 註解描述 ([1b58e94](https://github.com/hahow/vscode-create-component/commit/1b58e94b187032c0c10a483d3943ff0b6f6e750b))
+
 ## [0.2.1](https://github.com/hahow/vscode-create-component/compare/v0.2.0...v0.2.1) (2022-02-22)
 
 
