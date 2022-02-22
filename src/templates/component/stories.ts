@@ -20,7 +20,8 @@ Basic.parameters = {
     type: 'figma',
     url: '',
   },
-  percy: { skip: true },
+  // TODO: 預設 skip Percy
+  // percy: { skip: false },
 };
 Basic.storyName = '{{name}}';
 `;
