@@ -1,23 +1,26 @@
-const HOC_TEMPLATE = `import type { FC, memo } from 'react';
+const HOC_TEMPLATE = `import type { ComponentType } from 'react';
 
-import type { PropsAreEqual } from './{{name}}.type';
+import type { {{capitalizedName}}Props } from './{{name}}.type';
 
-const {{name}} = <P extends {}>(
-  Component: FC<P>,
-  propsAreEqual?: PropsAreEqual<P> | false,
-  componentName = Component.displayName ?? Component.name
-): FC<P> => {
-  const Component{{capitalizedName}}: FC<P> = (props) => {
-    return <Component {...props} />;
+const {{name}} = <T extends {{capitalizedName}}Props = {{capitalizedName}}Props>(WrappedComponent: ComponentType<T>) => {
+  // Try to create a nice displayName for React Dev Tools.
+  const displayName = WrappedComponent.displayName || WrappedComponent.name || 'Component';
+
+  const Component{{capitalizedName}} = (props: Omit<T, keyof {{capitalizedName}}Props>) => {
+    // Fetch the props you want to inject. This could be done with context instead.
+    // TODO: const {{trimmedLowerFirstName}}Props = use{{trimmedName}}();
+
+    return (
+      <WrappedComponent
+        // TODO: {...{{trimmedLowerFirstName}}Props}
+        {...(props as T)}
+      />
+    );
   };
 
-  Component{{capitalizedName}}.displayName = \`{{name}}(\${componentName})\`;
+  Component{{capitalizedName}}.displayName = \`{{name}}(\${displayName})\`;
 
-  const WrappedComponent = propsAreEqual === false ? Component{{capitalizedName}} : memo(Component{{capitalizedName}}, propsAreEqual);
-
-  // copyStaticProperties(Component,  WrappedComponent);
-
-  return WrappedComponent as typeof Component{{capitalizedName}};
+  return Component{{capitalizedName}};
 };
 
 export default {{name}};

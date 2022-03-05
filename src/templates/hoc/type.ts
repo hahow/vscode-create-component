@@ -1,4 +1,6 @@
-const TYPE_TEMPLATE = `export type PropsAreEqual<P> = (prevProps: Readonly<P>, nextProps: Readonly<P>) => boolean;
+const TYPE_TEMPLATE = `export interface {{capitalizedName}}Props {
+  // TODO: add props type here
+}
 `;
 
 export default TYPE_TEMPLATE;

@@ -11,13 +11,24 @@ const capitalize = (s: string) => {
   return s[0].toUpperCase() + s.slice(1);
 };
 
+const lowerFirst = (s: string) => {
+  return s[0].toLowerCase() + s.slice(1);
+};
+
 class HOCGenerator implements IGenerator {
   public generate(name: string, folder: string): void {
     const capitalizedName = capitalize(name);
+    const trimmedName = name.replace(/^with(\w+)/, "$1");
+    const trimmedLowerFirstName = lowerFirst(trimmedName);
 
     fs.writeFileSync(
       path.join(folder, `${name}.tsx`),
-      mustache.render(HOC_TEMPLATE, { capitalizedName, name })
+      mustache.render(HOC_TEMPLATE, {
+        capitalizedName,
+        name,
+        trimmedName,
+        trimmedLowerFirstName,
+      })
     );
     fs.writeFileSync(
       path.join(folder, "index.ts"),
@@ -25,7 +36,7 @@ class HOCGenerator implements IGenerator {
     );
     fs.writeFileSync(
       path.join(folder, `${name}.type.ts`),
-      mustache.render(TYPE_TEMPLATE, { name })
+      mustache.render(TYPE_TEMPLATE, { capitalizedName })
     );
   }
 }
