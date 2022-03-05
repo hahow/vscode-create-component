@@ -1,6 +1,8 @@
-const UTIL_TEMPLATE = `import {} from './{{name}}.type';
+const UTIL_TEMPLATE = `import type { {{capitalizedName}}Type } from './{{name}}.type';
 
-const {{name}} = () => {};
+const {{name}}: {{capitalizedName}}Type = (args) => {
+  return args;
+};
 
 export default {{name}};
 `;

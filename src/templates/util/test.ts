@@ -3,7 +3,7 @@ import {{name}} from './{{name}}';
 
 describe('{{name}}', () => {
   test('should return correct value', () => {
-    expect({{name}}()).toMatch(null);
+    expect({{name}}('foobar')).toMatch('FOOBAR');
   });
 });
 `;
