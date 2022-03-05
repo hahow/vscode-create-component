@@ -1,7 +1,7 @@
 const HOOK_TEMPLATE = `import { gql, useQuery } from '@apollo/client';
 import { useReducer } from 'react';
 
-import { QueryCoursesArgs } from '@/types/graphql';
+import type { QueryCoursesArgs } from '@/types/graphql';
 
 import type { ActionType, CoursesData } from './{{name}}.type';
 

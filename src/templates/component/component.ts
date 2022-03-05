@@ -1,4 +1,4 @@
-const COMPONENT_TEMPLATE = `import { FC } from 'react';
+const COMPONENT_TEMPLATE = `import type { FC } from 'react';
 
 import { Styled{{name}} } from './{{name}}.style';
 import type { {{name}}Props } from './{{name}}.type';

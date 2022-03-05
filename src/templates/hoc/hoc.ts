@@ -1,4 +1,4 @@
-const HOC_TEMPLATE = `import { FC, memo } from 'react';
+const HOC_TEMPLATE = `import type { FC, memo } from 'react';
 
 import type { PropsAreEqual } from './{{name}}.type';
 

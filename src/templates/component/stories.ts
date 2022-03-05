@@ -1,5 +1,5 @@
 const STORIES_TEMPLATE = `import { action } from '@storybook/addon-actions';
-import { Meta, Story } from '@storybook/react';
+import type { Meta, Story } from '@storybook/react';
 
 import {{name}} from './{{name}}';
 import type { {{name}}Props } from './{{name}}.type';

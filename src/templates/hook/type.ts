@@ -1,4 +1,4 @@
-const TYPE_TEMPLATE = `import { Course } from '@/types/graphql';
+const TYPE_TEMPLATE = `import type { Course } from '@/types/graphql';
 
 export interface CoursesData {
   courses: {
