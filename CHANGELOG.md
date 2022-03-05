@@ -1,3 +1,17 @@
+# [0.3.0](https://github.com/hahow/vscode-create-component/compare/v0.2.2...v0.3.0) (2022-03-05)
+
+
+### Bug Fixes
+
+* 修正 Utility Function *.type 應該是 *.test ([64ddaa7](https://github.com/hahow/vscode-create-component/commit/64ddaa777b357499df27186aed978899a024d63e))
+* 遵循 import type convention ([8742734](https://github.com/hahow/vscode-create-component/commit/8742734d13dd26984ed68dbfc0c5b483005c59f3))
+
+
+### Features
+
+* 簡化 HOC template，移除參數 propsAreEqual 和 componentName ([e2df7d8](https://github.com/hahow/vscode-create-component/commit/e2df7d8586ff39c81625bad2660b74f24f865a57))
+* 調整 Component template，用不到的程式碼加 TODO 註解 ([99f638b](https://github.com/hahow/vscode-create-component/commit/99f638bc022ea8265a8ec88d993ed1dcc515fe50))
+
 ## [0.2.2](https://github.com/hahow/vscode-create-component/compare/v0.2.1...v0.2.2) (2022-02-22)
 
 
