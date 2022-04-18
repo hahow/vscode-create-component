@@ -1,6 +1,18 @@
 # [0.4.0](https://github.com/hahow/vscode-create-component/compare/v0.3.0...v0.4.0) (2022-04-18)
 
 
+### Bug Fixes
+
+* 我只是想重新跑一次失敗的 CICD ([22c5fff](https://github.com/hahow/vscode-create-component/commit/22c5fff38c1b9b83ed1e4717d7f8a968b9616115))
+
+
+### Features
+
+* 更新 Percy screenshot skip 機制相關註解 ([e9723b9](https://github.com/hahow/vscode-create-component/commit/e9723b96f3b64f15b30670b4ae46132c6cacff3b))
+
+# [0.4.0](https://github.com/hahow/vscode-create-component/compare/v0.3.0...v0.4.0) (2022-04-18)
+
+
 ### Features
 
 * 更新 Percy screenshot skip 機制相關註解 ([e9723b9](https://github.com/hahow/vscode-create-component/commit/e9723b96f3b64f15b30670b4ae46132c6cacff3b))
