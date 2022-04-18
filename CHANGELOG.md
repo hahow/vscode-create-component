@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/hahow/vscode-create-component/compare/v0.3.0...v0.4.0) (2022-04-18)
+
+
+### Features
+
+* 更新 Percy screenshot skip 機制相關註解 ([e9723b9](https://github.com/hahow/vscode-create-component/commit/e9723b96f3b64f15b30670b4ae46132c6cacff3b))
+
 # [0.3.0](https://github.com/hahow/vscode-create-component/compare/v0.2.2...v0.3.0) (2022-03-05)
 
 

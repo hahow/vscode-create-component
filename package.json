@@ -7,7 +7,7 @@
   },
   "publisher": "amowu",
   "description": "這個 VS Code extension 可以讓 Hahow for Business 的前端團隊根據自己的「資料夾分類＆檔案命名規則」自動批次建立 template",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "engines": {
     "vscode": "^1.64.0"
   },
