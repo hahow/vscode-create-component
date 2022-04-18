@@ -24,8 +24,8 @@ Basic.parameters = {
   //   type: 'figma',
   //   url: '',
   // },
-  // TODO: 如果希望 Percy screenshot，請取消註解；否則請移除程式碼（預設 skip: true）
-  // percy: { skip: false },
+  // TODO: 預設 Percy screenshot all stories，如果不想 screenshot 請取消註解；否則請移除程式碼
+  // percy: { skip: true },
 };
 Basic.storyName = '{{name}}';
 `;
